@@ -15,11 +15,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         webView.load(URLRequest(url: URL(string: "http://localhost:8080")!))
         
-        if let view = view as? PrintHitTestView {
-            view.touchEventHandler = { hit in
-                print("hit?: \(hit)")
-            }
-        }
+//        if let view = view as? PrintHitTestView {
+//            view.touchEventHandler = { hit in
+//                print("hit?: \(hit)")
+//            }
+//        }
     }
 }
 
